@@ -1,7 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>直链</title>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            background: #fafafa;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            padding: 20px 16px;
+            color: #222;
+        }
+        .container {
+            max-width: 820px;
+            margin: 0 auto;
+        }
+        .item {
+            padding: 6px 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            gap: 4px 10px;
+        }
+        .item:last-child { border-bottom: none; }
+        .name {
+            font-weight: 500;
+            font-size: 14px;
+            color: #111;
+            min-width: 90px;
+        }
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 6px 12px;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+            font-size: 13px;
+            word-break: break-all;
+        }
+        a:hover { text-decoration: underline; }
+        .pwd {
+            font-size: 12px;
+            color: #888;
+            background: #f0f0f0;
+            padding: 0 8px;
+            border-radius: 10px;
+        }
+        .tag {
+            font-size: 11px;
+            color: #999;
+            background: #f0f0f0;
+            padding: 0 8px;
+            border-radius: 10px;
+        }
+        .note {
+            font-size: 12px;
+            color: #666;
+            background: #f5f5f5;
+            padding: 0 8px;
+            border-radius: 10px;
+        }
+        @media (max-width: 480px) {
+            .name { min-width: 70px; font-size: 13px; }
+            .item { padding: 8px 0; }
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<div class="container">
+
+    <div class="item"><span class="name">广播体操</span><div class="links"><a href="https://www.sport.gov.cn/n322/n382/c918227/content.html">说明</a><a href="https://www.sport.gov.cn/n322/n382/c918227/part/570928.mp4">视频</a></div></div>
+
+    <div class="item"><span class="name">Geak</span><div class="links"><a href="https://ppfrog.lanzouo.com/iEFOq2zt1mej">下载</a></div></div>
+
+    <div class="item"><span class="name">Radmin LAN</span><div class="links"><a href="https://wwyg.lanzouo.com/ilDuY2zyoxed">下载</a><span class="pwd">gjhy</span></div></div>
+
+    <div class="item"><span class="name">运气与实力</span><div class="links"><a href="https://ppfrog.lanzouo.com/b00yadzayd">目录</a><span class="pwd">ppfg</span></div></div>
+
+    <div class="item"><span class="name">MinGW64</span><div class="links"><a href="https://wwtw.lanzouq.com/iOF0J37hj0vi">下载</a><span class="pwd">f5ym</span></div></div>
+
+    <div class="item"><span class="name">VS Code</span><div class="links"><a href="https://vscode.download.prss.microsoft.com/dbazure/download/stable/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/VSCodeUserSetup-x64-1.105.1.exe">下载</a></div></div>
+
+    <div class="item"><span class="name">.vscode配置</span><div class="links"><a href="https://wwtw.lanzouq.com/in6dv37zmwje">下载</a><span class="note">默认D盘，调path</span></div></div>
+
+    <div class="item"><span class="name">四楼显卡驱动</span><div class="links"><a href="https://downloadmirror.intel.com/864992/gfx_win_101.7076.exe">下载</a></div></div>
+
+    <div class="item"><span class="name">1.12.2</span><div class="links"><a href="https://ppfrog.lanzouo.com/iVnMf306fj4d">下载</a></div></div>
+
+    <div class="item"><span class="name">虚拟机</span><div class="links"><a href="https://ppfrog.lanzouo.com/b00yac8hcf">目录</a><span class="pwd">amqx</span></div></div>
+
+    <div class="item"><span class="name">分卷合并器</span><div class="links"><a href="https://ppfrog.lanzouo.com/iCoom2y966qj">下载</a><span class="pwd">ae61</span><span class="note">和虚拟机放一起，输2合并</span></div></div>
+
+    <div class="item"><span class="name">VMware官网</span><div class="links"><a href="https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion">官网</a></div></div>
+
+    <div class="item"><span class="name">图片转文字</span><div class="links"><a href="https://web.baimiaoapp.com/">在线</a></div></div>
+
+    <div class="item"><span class="name">Java17</span><div class="links"><a href="https://cdn.azul.com/zulu/bin/zulu17.62.17-ca-jdk17.0.17-win_x64.msi">下载</a></div></div>
+
+    <div class="item"><span class="name">Java21</span><div class="links"><a href="https://cdn.azul.com/zulu/bin/zulu21.44.17-ca-jdk21.0.8-win_x64.msi">下载</a></div></div>
+
+    <div class="item"><span class="name">Java8</span><div class="links"><a href="https://dragonwell.oss-cn-shanghai.aliyuncs.com/8.26.25/Alibaba_Dragonwell_Extended_8.26.25_x64_windows.zip">下载</a></div></div>
+
+    <div class="item"><span class="name">Java11</span><div class="links"><a href="https://dragonwell-jdk.io/#/index">官网</a></div></div>
+
+    <div class="item"><span class="name">Bandizip</span><div class="links"><a href="https://ppfrog.lanzouo.com/iJkoX35x76pa">下载</a><span class="pwd">bdzp</span><span class="note">无广告，别更新</span></div></div>
+
+    <div class="item"><span class="name">Lemon测评机</span><div class="links"><a href="https://ppfrog.lanzouo.com/iDBHc36zjjdg">下载</a></div></div>
+
+    <div class="item"><span class="name">牛津3000词</span><div class="links"><a href="https://ppfrog.lanzouo.com/b00yak7a1e">目录</a><span class="pwd">oxford</span></div></div>
+
+    <div class="item"><span class="name">Kards</span><div class="links"><a href="https://ppfrog.lanzouo.com/iVaKW36bgh0j">下载</a><span class="pwd">kards</span></div></div>
+
+    <div class="item"><span class="name">七七</span><div class="links"><a href="https://ppfrog.lanzouo.com/iIzav30ec49i">下载</a><span class="pwd">6cg2</span></div></div>
+
+    <div class="item"><span class="name">小熊猫dev</span><div class="links"><a href="https://wwe.lanzoui.com/b01os0mwd">目录</a><span class="pwd">f0tp</span></div></div>
+
+    <div class="item"><span class="name">服务器</span><div class="links"><span class="tag">cloverpixel.com</span></div></div>
+
+    <div class="item"><span class="name">四叶草服务器</span><div class="links"><span class="tag">cloverpixel.com</span></div></div>
+
+    <div class="item"><span class="name">激活系统</span><div class="links"><a href="https://kms.cx/">kms.cx</a></div></div>
+
+    <div class="item"><span class="name">乒乓球</span><div class="links"><a href="https://poki.com/zh/g/ping-pong-go">poki.com</a><span class="note">最有用的直链 ——茶叶</span></div></div>
+
+    <div class="item"><span class="name">烧掉数学书</span><div class="links"><a href="https://weread.qq.com/web/reader/71832e007260a75e718c6fb">微信读书</a></div></div>
+
+    <div class="item"><span class="name">VLC</span><div class="links"><a href="https://www.videolan.org/vlc/">官网</a></div></div>
+
+    <div class="item"><span class="name">Win11 IoT</span><div class="links"><a href="https://software-static.download.prss.microsoft.com/dbazure/998969d5-f34g-4e03-ac9d-1f9786c66749/26100.1742.240906-0331.ge_release_svc_refresh_CLIENT_IOT_LTSC_EVAL_x64FRE_en-us.iso">下载</a></div></div>
+
+    <div class="item"><span class="name">Glavo壁纸</span><div class="links"><a href="https://ppfrog.lanzouv.com/iLrjN3q59zhg">下载</a><span class="pwd">glavo</span></div></div>
+
+    <div class="item"><span class="name">Biu音乐</span><div class="links"><a href="https://ppfrog.lanzouv.com/iWkdj3q9ixwh">下载</a><span class="pwd">biu</span><a href="https://github.com/wood3n/biu">GitHub</a></div></div>
+
+    <div class="item"><span class="name">Motrix</span><div class="links"><a href="https://motrix.app/">官网</a></div></div>
+
+    <div class="item"><span class="name">MotrixNext</span><div class="links"><a href="https://motrix-next.pages.dev/#">官网</a><a href="https://github.com/AnInsomniacy/motrix-next">GitHub</a></div></div>
+
+    <div class="item"><span class="name">酷狗概念版</span><div class="links"><a href="https://ppfrog.lanzouv.com/i3zVf3rf7owj">下载</a><span class="note">2.5.5</span></div></div>
+
+    <div class="item"><span class="name">图片查看器</span><div class="links"><a href="https://pic.ghxi.com/">在线</a></div></div>
+
+    <div class="item"><span class="name">imfile</span><div class="links"><a href="https://imfile.org/">官网</a><a href="https://github.com/imfile-io/imfile-desktop">GitHub</a></div></div>
+
+    <div class="item"><span class="name">aternos</span><div class="links"><span class="tag">asternos.org</span></div></div>
+
+    <div class="item"><span class="name">Purplefrog</span><div class="links"><span class="tag">c24purplefrog-tower.aternos.me:44978</span></div></div>
+
+    <div class="item"><span class="name">nPr跑酷</span><div class="links"><span class="tag">nPr123f.aternos.me:45120</span></div></div>
+
+    <div class="item"><span class="name">nPr Tower</span><div class="links"><span class="tag">nPr123f-Tower.aternos.me:30023</span></div></div>
+
+</div>
 </body>
 </html>
